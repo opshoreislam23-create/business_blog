@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <head>
+    <title>My Business Blog</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">Business Blog</h2>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/post">Posts</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <p>© 2025 My Business Blog</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #b3002d; /* Mobbish red */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffb3b3;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #b3002d, #ff4d4d);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .read-btn {
+    background: #ffffff;
+    color: #b3002d;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero .read-btn:hover {
+    background: #ffcccc;
+}
+
+/* BLOG SECTION */
+.blog-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 30px;
+}
+
+.blog-card {
+    border: 2px solid #b3002d;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.blog-card h2 {
+    color: #b3002d;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.blog-card p {
+    font-size: 16px;
+    margin: 0 15px 15px 15px;
+    color: #555;
+}
+
+.blog-card .read-btn {
+    display: inline-block;
+    margin: 0 15px 15px 15px;
+    background: #b3002d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.blog-card .read-btn:hover {
+    background: #800020;
+    transform: translateY(-3px);
+}
+
+/* FOOTER */
+footer {
+    background: #b3002d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
